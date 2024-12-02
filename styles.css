@@ -1,0 +1,51 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cursive', 'Arial', sans-serif;
+    background: url('fondo.jpg') no-repeat center center fixed; /* Imagen de fondo */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+/* Contenedor */
+.container {
+    background: rgba(255, 182, 193, 0.8); /* Fondo rosa con opacidad */
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Foto de la cumpleañera */
+.photo img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+/* Texto principal */
+.title {
+    font-size: 2.5em;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 1.8em;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.details {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Enlace al lugar */
+.details a {
+    co

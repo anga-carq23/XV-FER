@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+<script src="script.js" defer></script> <!-- Enlace al archivo JS -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de XV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Foto de la cumpleañera -->
+        <div class="photo">
+            <img src="cumpleanera.jpg" alt="Foto de Erika Fernanda">
+        </div>
+
+        <!-- Texto principal -->
+        <h1 class="title">¡Te invito a mis XV Años!</h1>
+        <p class="name">Erika Fernanda Carrillo Quintero</p>
+        <p class="details">📅 Fecha: 9 de agosto</p>
+        <p class="details">⏰ Hora: 20:00 hrs</p>
+
+        <!-- Link al lugar -->
+        <p class="details">📍 Lugar: 
+            <a href="https://www.google.com/maps/place/SALON+DE+USOS+MULTIPLES,+DELEGACION+ALVARO+OBREGON./@19.3904105,-99.1954858,15z/data=!4m6!3m5!1s0x85d201d6cb4e494b:0x5631f8bcbf2a382a!8m2!3d19.3904105!4d-99.1954858!16s%2Fg%2F11css_y9y_?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D" target="_blank">[Ver en Google Maps]</a>
+        </p>
+
+        <!-- Botón para la música -->
+        <button class="music-button" onclick="toggleMusic()">🎵 Reproducir música 🎵</button>
+        <audio id="background-music" loop>
+            <source src="amar_como_tu.mp3" type="audio/mp3">
+            Tu navegador no soporta reproducción de audio.
+        </audio>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
